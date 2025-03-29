@@ -1,0 +1,141 @@
+/* Misc CSS adjustments */
+#_desktop_logo {
+    padding-right: 0;
+}
+#contact .__aw-atlas-map-3 .atlas-map-container {
+    box-shadow: none;
+}
+.block_newsletter {
+    max-width: none;
+}
+
+#module-artixwebatlas-preview #adveg-grecaptcha-legal {
+    display: none;
+}
+/* End of misc CSS adjustments */
+
+#app-demo {
+    margin-top: 1.5rem;
+}
+
+#app-demo h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+    text-align: center;
+    font-weight: 700;
+    text-transform: none;
+    margin-bottom: 2rem;
+}
+
+#app-demo section {
+    margin-bottom: 3rem;
+}
+
+#app-demo .custom-styles {
+    text-align: center;
+}
+
+#app-demo .custom-styles a {
+    color: #ec407a;
+    text-decoration: none!important;
+    position: relative;
+}
+
+#app-demo .custom-styles a::after {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #ec407a;
+    height: 2px;
+    width: 0;
+    transition: width .3s ease-out;
+}
+
+#app-demo .custom-styles a:hover::after {
+    width: 100%;
+}
+
+#map-demos .map-demo-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.5rem;
+}
+
+#map-demos .map-demo-tabs a {
+    color: #ec407a;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 1000rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.25rem;
+    transition: background-color .3s, color .3s;
+    text-decoration: none!important;
+    white-space: nowrap;
+}
+
+#map-demos .map-demo-tabs a:hover {
+    background-color: rgba(236,64,123, .1);
+}
+
+#map-demos .map-demo-tabs a.active {
+    color: white;
+    background-color: #ec407a;
+}
+
+#map-demos .map-demo-content {
+    display: none;
+}
+
+#map-demos .map-demo-content.active {
+    display: block;
+}
+
+#map-demos .map-demo-content h3 {
+    display: none;
+}
+
+#demo-pages {
+    font-size: 1.5rem;
+}
+
+#demo-pages ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2.5rem;
+}
+
+#demo-pages ul li {
+    padding-left: 1rem;
+}
+
+#demo-pages ul li::after {
+    content: '/';
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+#demo-pages ul li:first-child {
+    padding-left: 0;
+}
+
+#demo-pages ul li:last-child::after {
+    display: none;
+}
+
+#demo-pages a {
+    font-weight: 600;
+}
+
+#demo-pages div {
+    margin-bottom: 1.5rem;
+}
+
+#demo-pages code {
+    color: white;
+    background: #333;
+    border-radius: 4px;
+    padding: .75rem;
+    display: inline-block;
+}
