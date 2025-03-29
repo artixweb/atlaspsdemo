@@ -6,7 +6,7 @@ How to replicate the Atlas demo tabs.
 
 For the HTML content, I used the "Custom text block" module (ps_customtext module).
 
-Add the HTML contents to "Custom text block" module's editor by clicking on the "Source code <>" button.
+Add the HTML contents to the "Custom text block" module's editor by clicking on the "Source code <>" button.
 
 # CSS
 
